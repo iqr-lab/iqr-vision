@@ -101,4 +101,4 @@ for bag_path in Path("bags/filtered_bags").glob("*.bag"):
 
 ## Contributing
 
-This is a relative straightforward Python package, proceed with standard practices. Document functions with [Google format Python docstrings](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings) and format code with `black`.
+This is a relatively straightforward Python package, proceed with standard practices. Document functions with [Google format Python docstrings](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings) and format code with `black`.
