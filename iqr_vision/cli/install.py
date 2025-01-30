@@ -2,7 +2,7 @@ import os
 from os.path import dirname, abspath
 import subprocess
 from pathlib import Path
-from iqr_vision_utils import hosts, parallel_template, module_directory
+from iqr_vision import hosts, parallel_template, module_directory
 
 import typer
 

@@ -6,7 +6,7 @@ from os.path import dirname, abspath
 
 from tqdm import tqdm
 
-from iqr_vision_utils import hosts
+from iqr_vision import hosts
 
 from rosbags.highlevel import AnyReader
 import numpy as np

@@ -1,7 +1,7 @@
 import subprocess
 import typer
 from typing_extensions import Annotated
-from iqr_vision_utils import hosts
+from iqr_vision import hosts
 
 
 def test():

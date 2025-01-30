@@ -25,7 +25,7 @@ This is a collection of Python utility packages for use with the IQR Vision syst
     </details>
 1. Clone [this repository](https://github.com/iqr-lab/iqr-vision) and run:
     ```bash
-    cd iqr-vision && pip install -e .
+    pip install -e .
     ```
 1. Each host should have `librealsense2` properly installed and have a camera connected. You can test this with the following command:
     ```bash
@@ -33,7 +33,7 @@ This is a collection of Python utility packages for use with the IQR Vision syst
     ```
     or if you prefer to use `runpy`
     ```bash
-    python -m iqr_vision_utils.cli test
+    python -m iqr_vision.cli test
     ```
     Expected output for each host:
     
@@ -60,7 +60,7 @@ Example usage:
 ```python
 from pathlib import Path
 
-from iqr_vision_utils import multivideo
+from iqr_vision import multivideo
 
 
 def record_timestamps():

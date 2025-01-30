@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-from iqr_vision_utils import parallel_template, module_directory, hosts
+from iqr_vision import parallel_template, module_directory, hosts
 
 
 def start(duration: int, bag_path: str, pre_stop: bool = True) -> list[int]:
