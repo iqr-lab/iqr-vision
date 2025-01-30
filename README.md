@@ -23,6 +23,10 @@ This is a collection of Python utility packages for use with the IQR Vision syst
     ```
 
     </details>
+1. Clone [this repository](https://github.com/iqr-lab/iqr-vision) and run:
+    ```bash
+    cd iqr-vision && pip install -e .
+    ```
 1. Each host should have `librealsense2` properly installed and have a camera connected. You can test this with the following command:
     ```bash
     iqr-vision test
